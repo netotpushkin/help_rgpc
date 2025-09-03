@@ -10,5 +10,5 @@
 
 Это позволяет быстро найти нужные записи и контролировать историю своих токенов.
 
-![](/assets/image/profile/16.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/profile/16_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/profile/16.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/profile/16_dark.png#only-dark){.on-glb data-gallery="only-dark"}

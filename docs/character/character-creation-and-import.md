@@ -11,27 +11,27 @@
 - Загрузить картинку со своего устройства, нажав «Choose Image».
 - Сгенерировать с помощью AI, нажав «Generate New Avatar».
 
-![](/assets/image/character/3.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/3_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/3.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/3_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 Для генерации введите описание в «Image Description», выберите модель в «Image Model», при необходимости активируйте NSFW (если нужны откровенные изображения), настройте Guidance Score для влияния описания на результат, и нажмите «Generate».
 
-![](/assets/image/character/4.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/4_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/4.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/4_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Basic Information
 
 Укажите имя в поле «Name» (до 20 символов), выберите язык и добавьте краткое описание в «Description».
 
-![](/assets/image/character/5.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/5_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/5.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/5_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### First Messages
 
 Выберите язык первого сообщения и добавьте варианты, нажав «Add Greeting». Можно создать до 10 приветствий. Отметьте «Default greeting for...», если хотите сделать его основным.
 
-![](/assets/image/character/6.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/6_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/6.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/6_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 
@@ -45,15 +45,15 @@
 
 Для каждого приветствия можно установить фон. Загрузите изображение («Choose file») или сгенерируйте («Generate New Backgrounds»). Максимум — 6 изображений. Чтобы привязать фон к приветствию, откройте меню «Assign to greeting» на нужной картинке и выберите сообщение.
 
-![](/assets/image/character/7.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/7_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/7.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/7_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Character Details
 
 В «Personality Traits» опишите личность, черты, манеру речи и прошлое. В «Scenario» — ситуацию, в которой он находится. В «Example Dialogue» — пример разговора, отражающий стиль общения. В «Author's Note» — авторскую заметку, задающую тон повествования.
 
-![](/assets/image/character/8.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/8_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/8.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/8_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 
@@ -65,8 +65,8 @@
 
 Выберите из рекомендаций промпт и AI-модель или нажмите «Select Custom» для выбора из списка.
 
-![](/assets/image/character/9.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/9_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/9.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/9_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Metadata
 
@@ -76,15 +76,15 @@
 - Unlisted — доступ по ссылке;
 - Public — для всех.
 
-![](/assets/image/character/10.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/10_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/10.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/10_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Согласие с правила сообщества
 
 Перед завершением установите галочку «I have read and agree to the Community Guidelines» и нажмите «Create Character».
 
-![](/assets/image/character/11.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/11_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/11.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/11_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ## Import Character
 
@@ -97,8 +97,8 @@
 
 После импорта все поля заполнятся автоматически.
 
-![](/assets/image/character/12.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/12_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](../assets/image/character/12.png#only-light){.on-glb data-gallery="only-light"}
+![](../assets/image/character/12_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 
