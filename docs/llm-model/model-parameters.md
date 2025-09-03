@@ -11,8 +11,8 @@
 - Presence Penalty — снижает вероятность повторения уже использованных слов. Чем выше значение, тем сильнее эффект.
 - Frequency Penalty — штрафует за частое повторение одних и тех же слов. Высокое значение уменьшает повторяемость выражений
 
-![](/assets/image/llm-model/1.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/llm-model/1_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/llm-model/1.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/llm-model/1_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 

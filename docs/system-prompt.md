@@ -8,8 +8,8 @@
 
 Перейдите в каталог промптов, нажав «Prompts» в верхней части страницы. После нажмите на кнопку «Create New Prompt» и заполните следующие поля:
 
-![Кнопка Create New Prompt](/assets/image/system-prompt/1.png#only-light)
-![Кнопка Create New Prompt](/assets/image/system-prompt/1_dark.png#only-dark)
+![Кнопка Create New Prompt](assets/image/system-prompt/1.png#only-light)
+![Кнопка Create New Prompt](assets/image/system-prompt/1_dark.png#only-dark)
 
 ### Content
 
@@ -17,8 +17,8 @@
 - Description — коротко опишите назначение;
 - Prompt Text — сам текст промпта: пишите чётко, без противоречий.
 
-![Вкладка Content](/assets/image/system-prompt/2.png#only-light)
-![Вкладка Content](/assets/image/system-prompt/2_dark.png#only-dark)
+![Вкладка Content](assets/image/system-prompt/2.png#only-light)
+![Вкладка Content](assets/image/system-prompt/2_dark.png#only-dark)
 
 !!! info
 
@@ -41,16 +41,16 @@
 	- Private — только для вас.
 - Tags — добавьте ключевые теги для поиска.
 
-![Вкладка Metadata](/assets/image/system-prompt/3.png#only-light)
-![Вкладка Metadata](/assets/image/system-prompt/3_dark.png#only-dark)
+![Вкладка Metadata](assets/image/system-prompt/3.png#only-light)
+![Вкладка Metadata](assets/image/system-prompt/3_dark.png#only-dark)
 
 ### Model
 
 - Нажмите «Add Model Configuration», чтобы добавить рекомендуемую модель. Можно указать до 10 моделей.
 - Для настройки модели нажмите «Configure».
 
-![Вкладка Model](/assets/image/system-prompt/4.png#only-light)
-![Вкладка Model](/assets/image/system-prompt/4_dark.png#only-dark)
+![Вкладка Model](assets/image/system-prompt/4.png#only-light)
+![Вкладка Model](assets/image/system-prompt/4_dark.png#only-dark)
 
 !!! warning
 

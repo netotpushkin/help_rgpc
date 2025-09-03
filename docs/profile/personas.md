@@ -4,8 +4,8 @@
 
 Чтобы создать новую персону, перейдите в свой профиль и нажмите «Create New». Откроется форма, где можно задать все необходимые параметры.
 
-![](/assets/image/profile/13.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/profile/13_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/profile/13.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/profile/13_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ## Создание персоны
 
@@ -19,12 +19,12 @@
 6. Описание — в поле «Highlights» укажите ключевые черты, которые будут влиять на поведение персонажа в чате.
 7. Создать — нажмите «Create», чтобы сохранить образ.
 
-![](/assets/image/profile/14.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/profile/14_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/profile/14.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/profile/14_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ## Генерация аватара
 
 Для генерации введите описание в «Image Description», выберите модель в «Image Model», при необходимости активируйте NSFW (если нужны откровенные изображения), настройте Guidance Score для влияния описания на результат, и нажмите «Generate».
 
-![](/assets/image/profile/15.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/profile/15_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/profile/15.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/profile/15_dark.png#only-dark){.on-glb data-gallery="only-dark"}

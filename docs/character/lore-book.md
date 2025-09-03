@@ -12,8 +12,8 @@
 	- Keywords — запись активируется при появлении указанных слов;
 	- Semantic — запись добавляется по смыслу, если AI определит подходящий контекст.
 
-![](/assets/image/character/15.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/15_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/character/15.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/character/15_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Keywords
 
@@ -26,8 +26,8 @@
 	- Send Image — отправить изображение (можно добавить текст);
 	- Update Chat Avatar — заменить аватар персонажа.
 
-![](/assets/image/character/16.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/16_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/character/16.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/character/16_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Semantic
 
@@ -38,8 +38,8 @@
 	- Send Image — картинку с текстом (опционально);
 	- Update Chat Avatar — заменить аватар.
 
-![](/assets/image/character/17.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/17_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/character/17.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/character/17_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ## Описание действий
 
@@ -53,7 +53,7 @@
 - Priority — чем выше, тем раньше сработает триггер при совпадении нескольких условий.
 - Probability — задаёт вероятность срабатывания (чем выше, тем чаще).
 
-![](/assets/image/character/18.png#only-light){.on-glb data-gallery="only-light"}
-![](/assets/image/character/18_dark.png#only-dark){.on-glb data-gallery="only-dark"}
+![](assets/image/character/18.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/character/18_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 Чтобы сохранить запись, нажмите «Create».
