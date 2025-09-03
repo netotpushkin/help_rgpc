@@ -8,8 +8,8 @@
 
 Перейдите в каталог промптов, нажав «Prompts» в верхней части страницы. После нажмите на кнопку «Create New Prompt» и заполните следующие поля:
 
-![](assets/image/system-prompt/1.png#only-light)
-![](assets/image/system-prompt/1_dark.png#only-dark)
+![](assets/image/system-prompt/1.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/system-prompt/1_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Content
 
@@ -17,8 +17,8 @@
 - Description — коротко опишите назначение;
 - Prompt Text — сам текст промпта: пишите чётко, без противоречий.
 
-![](assets/image/system-prompt/2.png#only-light)
-![](assets/image/system-prompt/2_dark.png#only-dark)
+![](assets/image/system-prompt/2.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/system-prompt/2_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 
@@ -41,16 +41,16 @@
 	- Private — только для вас.
 - Tags — добавьте ключевые теги для поиска.
 
-![](assets/image/system-prompt/3.png#only-light)
-![](assets/image/system-prompt/3_dark.png#only-dark)
+![](assets/image/system-prompt/3.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/system-prompt/3_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Model
 
 - Нажмите «Add Model Configuration», чтобы добавить рекомендуемую модель. Можно указать до 10 моделей.
 - Для настройки модели нажмите «Configure».
 
-![](assets/image/system-prompt/4.png#only-light)
-![](assets/image/system-prompt/4_dark.png#only-dark)
+![](assets/image/system-prompt/4.png#only-light){.on-glb data-gallery="only-light"}
+![](assets/image/system-prompt/4_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! warning
 
