@@ -1,0 +1,11 @@
+:root  > * {
+  --md-primary-fg-color:        #1e2939;
+  --md-primary-fg-color--light: #1e2939;
+  --md-primary-fg-color--dark:  #1e2939;
+}
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
