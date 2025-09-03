@@ -1,0 +1,58 @@
+site_name: RPGC.AI
+
+theme:
+  language: en
+  name: material
+
+  features:
+    - navigation.top
+    - navigation.footer
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+extra_css:
+  - assets/style/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - glightbox:
+      manual: true
+
+nav:
+  - Home: index.md
+  - Profile:
+    - Edit Profile: profile/edit-profile.md
+    - Personas: profile/personas.md
+    - Transaction History: profile/transaction-history.md
+    - Blocked Creators: profile/blocked-creators.md
+    - Workflows: profile/workflows.md
+  - Characters:
+    - Character Catalog: character/character-catalog.md
+    - Character Chats: character/character-chats.md
+    - Character Creation And Import: character/character-creation-and-import.md
+    - Lore Book: character/lore-book.md
+  - LMM models:
+    - Connecting A Local Model: llm-model/connecting-a-local-model.md
+    - Connecting The Model Via OpenRouter: llm-model/connecting-the-model-via-openrouter.md
+    - Model Parameters: llm-model/model-parameters.md
