@@ -1,21 +1,21 @@
 # Model Parameters
 
-Эти настройки помогают контролировать, как модель будет формировать ответы персонажа.
+These settings help control how the model generates the character's responses.
 
-- Model — выберите подходящую модель для работы персонажа.
-- Temperature — уровень креативности ответов. Рекомендуемое значение: 0.5–1.1. Чем выше, тем более разнообразны и нестандартны ответы.
-- Top-P — ограничивает выбор слов самым вероятным набором, покрывающим вероятность P. Например, при P=0.9 модель выбирает слова, которые суммарно дают 90% вероятности.
-- Top-K — ограничивает выбор K наиболее вероятными словами. Например, при K=50 модель учитывает только 50 самых вероятных слов.
-- Total Context Tokens — максимальный размер контекста, который модель учитывает при генерации ответа.
-- Max Response Tokens — ограничение длины ответа. Для английского примерно 100 токенов ≈ 70 слов.
-- Presence Penalty — снижает вероятность повторения уже использованных слов. Чем выше значение, тем сильнее эффект.
-- Frequency Penalty — штрафует за частое повторение одних и тех же слов. Высокое значение уменьшает повторяемость выражений
+- Model — Select a suitable model for the character.
+- Temperature — Controls the creativity of responses. Recommended value: 0.5–1.1. Higher values produce more diverse and unconventional answers.
+- Top-P — Limits word selection to the most probable set covering probability P. For example, at P=0.9, the model selects words that collectively account for 90% of the probability.
+- Top-K — Restricts word selection to the K most probable words. For example, at K=50, the model considers only the top 50 most likely words.
+- Total Context Tokens — The maximum context size the model considers when generating a response.
+- Max Response Tokens — Limits the length of the response. For English, approximately 100 tokens ≈ 70 words.
+- Presence Penalty — Reduces the likelihood of repeating words already used. Higher values increase this effect.
+- Frequency Penalty — Penalizes frequent repetition of the same words. Higher values reduce repetitiveness in expressions.
 
 ![](../assets/image/llm-model/1.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/llm-model/1_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 
-	Для персонажей с уникальным стилем речи можно увеличить Temperature, а для точных и лаконичных ответов — снизить.
+	For characters with a unique speaking style, you can increase the Temperature, while for precise and concise responses, it's better to decrease it.
 
-	Для уменьшения повторов используйте Presence и Frequency Penalty в умеренных значениях.
+	To reduce repetition, use Presence Penalty and Frequency Penalty at moderate values.

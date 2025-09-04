@@ -1,13 +1,13 @@
 # Character Catalog
 
-В каталоге отображаются все доступные персонажи. Для удобного поиска используйте фильтры и поисковую строку.
+The catalog displays all available characters. Use filters and the search bar for easier navigation.
 
-Доступен умный поиск, который подберёт персонажей по смыслу, даже если вы не используете точные слова.
+A smart search is available, which can find characters based on meaning, even if you don’t use the exact words.
 
 ![](../assets/image/character/1.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/1_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
-Чтобы узнать больше о персонаже, нажмите на его карточку. Откроется страница с подробным описанием, рекомендациями по моделям и промптам, а также списком чатов. Здесь же можно добавить персонажа в избранное.
+To learn more about a character, click on their card. A page will open with detailed descriptions, recommendations for models and prompts, and a list of chats. You can also add the character to your favorites here.
 
 ![](../assets/image/character/2.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/2_dark.png#only-dark){.on-glb data-gallery="only-dark"}

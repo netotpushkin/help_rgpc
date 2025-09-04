@@ -1,59 +1,59 @@
 # Lore Book
 
-Это набор заметок, которые помогают модели лучше понимать контекст диалога. Когда в вашем сообщении встречаются определённые слова или создаётся нужная ситуация, система автоматически добавляет подходящую запись в контекст, чтобы ответы были точными и осмысленными.
+This is a set of notes that helps the model better understand the dialogue context. When certain words appear in your message or a specific situation arises, the system automatically adds the relevant entry to the context, ensuring accurate and meaningful responses.
 
-## Добавление новой записи в книгу
+## Adding a New Entry to the Lore Book
 
-Перейдите на страницу персонажа и под аватаром нажмите «Lore». Затем:
+Go to the character’s page and click “Lore” under the avatar. Then:
 
-- Нажмите «Add Entry».
-- В поле «Title» введите название записи.
-- В блоке «Trigger Configuration» выберите тип срабатывания:
-	- Keywords — запись активируется при появлении указанных слов;
-	- Semantic — запись добавляется по смыслу, если AI определит подходящий контекст.
+- Click “Add Entry”.
+- In the “Title” field, enter the entry’s name.
+- In the “Trigger Configuration” section, choose the trigger type:
+	- Keywords — the entry is activated when the specified words appear;
+	- Semantic — the entry is added based on meaning if the AI detects a relevant context.
 
 ![](../assets/image/character/15.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/15_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Keywords
 
-- Case Sensitive — учитывает регистр букв.
-- Match All Keywords — срабатывает только при обнаружении всех слов.
-- В «Keywords» укажите ключевые слова через запятую.
-- В разделе «Action Configuration» выберите, что произойдёт при срабатывании:
-	- Add to Context — добавить запись в память диалога;
-	- Send Message — отправить сообщение в чат;
-	- Send Image — отправить изображение (можно добавить текст);
-	- Update Chat Avatar — заменить аватар персонажа.
+- Case Sensitive — considers letter case.
+- Match All Keywords — triggers only when all specified words are found.
+- In “Keywords”, list the keywords separated by commas.
+- In the “Action Configuration” section, choose what happens when triggered:
+	- Add to Context — add the entry to the chat memory;
+	- Send Message — send a message in the chat;
+	- Send Image — send an image (you can include text);
+	- Update Chat Avatar — change the character’s avatar.
 
 ![](../assets/image/character/16.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/16_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Semantic
 
-- В «Context Description» опишите, когда должна срабатывать запись (например: «обсуждение магии», «разговор о прошлом персонажа»).
-- В «Additional Instructions for AI» (необязательно) укажите реакцию AI, например эмоции.
-- В «Action Configuration» выберите действие:
-	- Send Message — отправить текст;
-	- Send Image — картинку с текстом (опционально);
-	- Update Chat Avatar — заменить аватар.
+- In “Context Description”, describe when the entry should trigger (e.g., “discussion about magic,” “talking about the character’s past”).
+- In “Additional Instructions for AI” (optional), specify the AI’s reaction, such as emotions.
+- In “Action Configuration”, choose the action:
+	- Send Message — send text;
+	- Send Image — send an image with optional text;
+	- Update Chat Avatar — change the avatar.
 
 ![](../assets/image/character/17.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/17_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
-## Описание действий
+## Action Descriptions
 
-- Add to Context — введите информацию в поле «Would be added to context», она будет учитываться в ответах персонажа.
-- Send Message — добавьте текст в «Would be sent to chat from character side», и он отправится в чат.
-- Send Image — загрузите изображение («Choose File») и, при желании, добавьте сопроводительный текст.
-- Update Chat Avatar — загрузите новое изображение для аватара. Можно добавить текст, который появится вместе с заменой.
+- Add to Context — enter information in the “Would be added to context” field; it will be considered in the character’s responses.
+- Send Message — add text in “Would be sent to chat from character side”, and it will be sent in the chat.
+- Send Image — upload an image (“Choose File”) and optionally add accompanying text.
+- Update Chat Avatar — upload a new avatar image. You can also add text that appears with the change.
 
-## Приоритет и вероятность
+## Priority and Probability
 
-- Priority — чем выше, тем раньше сработает триггер при совпадении нескольких условий.
-- Probability — задаёт вероятность срабатывания (чем выше, тем чаще).
+- Priority — the higher the value, the sooner the trigger will activate when multiple conditions match.
+- Probability — sets the chance of triggering (the higher, the more often it occurs).
 
 ![](../assets/image/character/18.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/18_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
-Чтобы сохранить запись, нажмите «Create».
+To save the entry, click “Create”.

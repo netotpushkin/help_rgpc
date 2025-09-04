@@ -1,14 +1,14 @@
 # Transaction History
 
-В этом разделе отображаются все операции по получению и расходу токенов.
+This section displays all operations related to receiving and spending tokens.
 
-Вы можете использовать фильтры для сортировки транзакций по:
+You can use filters to sort transactions by:
 
-- типу операции;
-- кошельку;
-- дате проведения.
+- Operation type;
+- Wallet;
+- Transaction date.
 
-Это позволяет быстро найти нужные записи и контролировать историю своих токенов.
+This allows you to quickly find the necessary records and keep track of your token history.
 
 ![](../assets/image/profile/16.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/profile/16_dark.png#only-dark){.on-glb data-gallery="only-dark"}

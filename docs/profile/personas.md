@@ -1,30 +1,30 @@
 # Personas
 
-Персона — это образ, от лица которого вы общаетесь в чате. Она включает имя, внешний вид, характер, цели и стиль общения, формируя уникальную личность для взаимодействия.
+A persona is the image from which you communicate in the chat. It includes a name, appearance, personality, goals, and communication style, forming a unique identity for interaction.
 
-Чтобы создать новую персону, перейдите в свой профиль и нажмите «Create New». Откроется форма, где можно задать все необходимые параметры.
+To create a new persona, go to your profile and click Create New. A form will open where you can set all the necessary parameters.
 
 ![](../assets/image/profile/13.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/profile/13_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
-## Создание персоны
+## Creating a Persona
 
-1. Имя — введите в поле «Name», чтобы персонаж мог обращаться к вам по имени.
-2. Аватар — загрузите изображение с устройства или сгенерируйте на основе описания (кнопка станет активной после ввода имени).
-3. Видимость — выберите:
-	Public — доступно всем;
-	Private — только вам.
-4. Теги — добавьте, чтобы охарактеризовать персонажа.
-5. Персона по умолчанию — отметьте «Set as default persona», если хотите использовать этот образ для всех чатов.
-6. Описание — в поле «Highlights» укажите ключевые черты, которые будут влиять на поведение персонажа в чате.
-7. Создать — нажмите «Create», чтобы сохранить образ.
+1. Name — Enter a name in the Name field so the character can address you by name.
+2. Avatar — Upload an image from your device or generate one based on a description (the button will become active after entering the name).
+3. Visibility — Choose:
+	- Public — Available to everyone.
+	- Private — Only visible to you.
+4. Tags — Add tags to characterize the persona.
+5. Default Persona — Check Set as default persona if you want to use this image for all chats.
+6. Description — In the Highlights field, specify key traits that will influence the persona’s behavior in the chat.
+7. Create — Click Create to save the persona.
 
 ![](../assets/image/profile/14.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/profile/14_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
-## Генерация аватара
+## Generating an Avatar
 
-Для генерации введите описание в «Image Description», выберите модель в «Image Model», при необходимости активируйте NSFW (если нужны откровенные изображения), настройте Guidance Score для влияния описания на результат, и нажмите «Generate».
+To generate an avatar, enter a description in Image Description, select a model in Image Model, optionally enable NSFW (if explicit images are needed), adjust the Guidance Score to control how much the description influences the result, and click Generate.
 
 ![](../assets/image/profile/15.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/profile/15_dark.png#only-dark){.on-glb data-gallery="only-dark"}

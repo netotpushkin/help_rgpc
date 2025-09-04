@@ -1,3 +1,3 @@
 # Welcome to RPGC.AI
 
-Здесь нужен какой-то умный текст. Я придумать не смог
+Frequently Asked Questions can be added here.

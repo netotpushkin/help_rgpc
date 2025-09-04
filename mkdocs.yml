@@ -47,10 +47,10 @@ nav:
   - Characters:
     - Character Catalog: character/character-catalog.md
     - Character Chats: character/character-chats.md
-    - Character Creation And Import: character/character-creation-and-import.md
+    - Character Creation and Import: character/character-creation-and-import.md
     - Lore Book: character/lore-book.md
   - System Prompt: system-prompt.md
   - LMM models:
-    - Connecting A Local Model: llm-model/connecting-a-local-model.md
-    - Connecting The Model Via OpenRouter: llm-model/connecting-the-model-via-openrouter.md
+    - Connecting a Local Model: llm-model/connecting-a-local-model.md
+    - Connecting the Model via OpenRouter: llm-model/connecting-the-model-via-openrouter.md
     - Model Parameters: llm-model/model-parameters.md

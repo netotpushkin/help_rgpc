@@ -1,115 +1,115 @@
 # Character Chats
 
-## Начать чат
+## Starting a Chat
 
-Чтобы начать общение, откройте страницу персонажа и нажмите «Start New Chat». В появившемся окне настройте параметры:
+To start a conversation, open the character’s page and click “Start New Chat”. In the window that appears, configure the following settings:
 
-- Encrypt Chat — включите, если хотите зашифровать диалог и защитить его паролем.
-- Choose Your Persona — выберите роль, от лица которой будете говорить.
-- Choose a Prompt — задайте системный промпт, определяющий стиль и поведение персонажа.
-- Choose AI Model — выберите рекомендованную модель или откройте Advanced Model Settings для тонкой настройки.
-- Choose First Message — выберите приветствие для начала или оставьте случайный вариант.
+- Encrypt Chat — enable this if you want to encrypt the dialogue and protect it with a password.
+- Choose Your Persona — select the role from which you will speak.
+- Choose a Prompt — set a system prompt that defines the character’s style and behavior.
+- Choose AI Model — select a recommended model or open Advanced Model Settings for fine-tuning.
+- Choose First Message — select a greeting to start with, or leave it as a random option.
 
 ![](../assets/image/character/13.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/13_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 
-	Если хотите использовать свою модель или промпт, нажмите «Select Custom» и выберите подходящий вариант.
+	If you want to use your own model or prompt, click “Select Custom” and choose the appropriate option.
 
-После настройки нажмите «Start Chat».
+After configuring the settings, click “Start Chat”.
 
-## Функционал чата
+## Chat Features
 
-### Верхнее меню
+### Top Menu
 
 <img src="../../assets/image/character/ico_1.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_1_dark.png#only-dark" style="vertical-align:middle;">
-— окно с воспоминаниями текущего чата. Вы можете добавлять записи вручную — модель будет воспринимать их как реальные события из истории диалога.
+— the chat memory window. You can add entries manually — the model will treat them as real events from the dialogue history.
 
 <img src="../../assets/image/character/ico_2.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_2_dark.png#only-dark" style="vertical-align:middle;">
-— выбор системного промпта, который определяет поведение и стиль персонажа.
+— selection of the system prompt, which defines the character’s behavior and style.
 
 <img src="../../assets/image/character/ico_3.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_3_dark.png#only-dark" style="vertical-align:middle;">
-— выбор персоны, от лица которой вы продолжаете диалог.
+— selection of the persona from which you continue the dialogue.
 
 <img src="../../assets/image/character/ico_4.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_4_dark.png#only-dark" style="vertical-align:middle;">
-— выбор и настройка модели, включая параметры генерации.
+— model selection and configuration, including generation settings.
 
 <img src="../../assets/image/character/ico_5.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_5_dark.png#only-dark" style="vertical-align:middle;">
-—  настройки конфиденциальности и видимости чата.
+— chat privacy and visibility settings.
 
 <img src="../../assets/image/character/ico_6.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_6_dark.png#only-dark" style="vertical-align:middle;">
-— выбор голоса для озвучивания сообщений.
+— selection of the voice for message narration.
 
-### Действия с сообщениями
+### Message Actions
 
 <img src="../../assets/image/character/ico_7.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_7_dark.png#only-dark" style="vertical-align:middle;">
-— копирует текст сообщения вместе со скрытыми символами.
+— copies the message text along with hidden characters.
 
 <img src="../../assets/image/character/ico_8.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_8_dark.png#only-dark" style="vertical-align:middle;">
-— создаёт отдельный диалог с выбранного сообщения.
+— creates a separate dialogue starting from the selected message.
 
 <img src="../../assets/image/character/ico_9.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_9_dark.png#only-dark" style="vertical-align:middle;">
-— перегенерировать выбранное сообщение.
+— regenerate the selected message.
 
 <img src="../../assets/image/character/ico_10.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_10_dark.png#only-dark" style="vertical-align:middle;">
-— удалить сообщение.
+— delete the message.
 
 <img src="../../assets/image/character/ico_11.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_11_dark.png#only-dark" style="vertical-align:middle;">
-— отредактировать сообщение.
+— edit the message.
 
 <img src="../../assets/image/character/ico_12.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_12_dark.png#only-dark" style="vertical-align:middle;">
-— отправить жалобу на сообщение.
+— report the message.
 
 <img src="../../assets/image/character/ico_13.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_13_dark.png#only-dark" style="vertical-align:middle;">
-— воспроизведение сообщения голосом.
+— play the message using voice.
 
-### Нижнее меню
+### Bottom Menu
 
 <img src="../../assets/image/character/ico_14.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_14_dark.png#only-dark" style="vertical-align:middle;">
-— отправляет ваше сообщение в чат.
+— sends your message to the chat.
 
 <img src="../../assets/image/character/ico_15.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_15_dark.png#only-dark" style="vertical-align:middle;">
-— преобразует ваш голос в текстовое сообщение.
+— converts your voice into a text message.
 
 <img src="../../assets/image/character/ico_16.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_16_dark.png#only-dark" style="vertical-align:middle;">
-— генерация изображения по контексту.
+— generates an image based on the context.
 
 <img src="../../assets/image/character/ico_17.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_17_dark.png#only-dark" style="vertical-align:middle;">
-— настройки генерации изображения
+— image generation settings
 
 <img src="../../assets/image/character/ico_18.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_18_dark.png#only-dark" style="vertical-align:middle;">
-— персонаж продолжает сюжет сам.
+— the character continues the story on their own.
 
 <img src="../../assets/image/character/ico_19.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_19_dark.png#only-dark" style="vertical-align:middle;">
-— перегенерация предложенных вариантов ответа.
+— regenerate the suggested response options.
 
 <img src="../../assets/image/character/ico_20.png#only-light" style="vertical-align:middle;">
 <img src="../../assets/image/character/ico_20_dark.png#only-dark" style="vertical-align:middle;">
-— варианты ответов сгенерированные AI.
+— AI-generated response options.
 
-## Настройка генерации изображений
+## Image Generation Settings
 
-Для генерации введите описание в «Image Description», выберите модель в «Image Model», при необходимости активируйте NSFW (если нужны откровенные изображения), настройте Guidance Score для влияния описания на результат, и нажмите «Generate».
+To generate an image, enter a description in “Image Description”, select a model in “Image Model”, enable NSFW if explicit content is needed, adjust the Guidance Score to control how closely the result follows the description, and click “Generate”.
 
 ![](../assets/image/character/14.png#only-light){.on-glb data-gallery="only-light"}
 ![](../assets/image/character/14_dark.png#only-dark){.on-glb data-gallery="only-dark"}

@@ -1,59 +1,59 @@
 # System Prompt
 
-Это скрытая инструкция для модели, которая задаёт общие правила поведения в диалоге. Он не заменяет роль персонажа, а определяет общий стиль, ограничения и реакции.
+This is a hidden instruction for the model that sets general rules of behavior in the dialogue. It does not replace the character's role but defines the overall style, constraints, and responses.
 
-Можно представить это так: системный промпт — режиссёр, а промпт персонажа — актёр.
+You can think of it this way: the system prompt is the director, while the character prompt is the actor.
 
-## Создание системного промпта
+## Creating a System Prompt
 
-Перейдите в каталог промптов, нажав «Prompts» в верхней части страницы. После нажмите на кнопку «Create New Prompt» и заполните следующие поля:
+Go to the prompts catalog by clicking “Prompts” at the top of the page. Then click the “Create New Prompt” button and fill in the following fields:
 
 ![](assets/image/system-prompt/1.png#only-light){.on-glb data-gallery="only-light"}
 ![](assets/image/system-prompt/1_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Content
 
-- Title — название промпта;
-- Description — коротко опишите назначение;
-- Prompt Text — сам текст промпта: пишите чётко, без противоречий.
+- Title — the name of the prompt;
+- Description — briefly describe its purpose;
+- Prompt Text — the actual text of the prompt: write clearly and without contradictions.
 
 ![](assets/image/system-prompt/2.png#only-light){.on-glb data-gallery="only-light"}
 ![](assets/image/system-prompt/2_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! info
 
-	Для общих промптов используйте универсальные правила. Для узких — конкретные, например, стиль писателя или поведение в боевых сценах.
+	For general prompts, use universal rules. For specific ones, provide detailed instructions, for example, a writer's style or behavior in combat scenes.
 
-	Можно использовать шаблонные ссылки:
-	- `{{user}}` — пользователь;
-	- `{{char}}` — персонаж;
-	- `<traits>`, `<scenario>`, `<greeting>`, `<example dialogue>` — разделы персонажа;
-	- `<memories>` — память чата.
+	You can use template placeholders:
+	- `{{user}}` — the user;
+	- `{{char}}` — the character;
+	- `<traits>`, `<scenario>`, `<greeting>`, `<example dialogue>` — character sections;
+	- `<memories>` — chat memory.
 
 !!! warning
 
-	Не делайте промпт слишком длинным — он отправляется при каждом запросе и быстро расходует контекст.
+	Do not make the prompt too long — it is sent with every request and quickly consumes the context.
 
 ### Metadata
 
-- Visibility — доступ:
-	- Public — для всех;
-	- Private — только для вас.
-- Tags — добавьте ключевые теги для поиска.
+- Visibility — access level:
+	- Public — visible to everyone;
+	- Private — only visible to you.
+- Tags — add relevant keywords for search.
 
 ![](assets/image/system-prompt/3.png#only-light){.on-glb data-gallery="only-light"}
 ![](assets/image/system-prompt/3_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 ### Model
 
-- Нажмите «Add Model Configuration», чтобы добавить рекомендуемую модель. Можно указать до 10 моделей.
-- Для настройки модели нажмите «Configure».
+- Click “Add Model Configuration” to add a recommended model. You can specify up to 10 models.
+- To configure a model, click “Configure”.
 
 ![](assets/image/system-prompt/4.png#only-light){.on-glb data-gallery="only-light"}
 ![](assets/image/system-prompt/4_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
 !!! warning
 
-	Обязательно добавьте минимум одну модель.
+	Make sure to add at least one model.
 
-Чтобы сохранить ваш промпт нажмите «Create Prompt».
+To save your prompt, click “Create Prompt”.

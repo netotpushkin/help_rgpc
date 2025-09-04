@@ -1,40 +1,41 @@
-# Connecting A Local Model
+# Connecting a Local Model
 
-Есть несколько способов развернуть языковую модель на локальном устройстве. Среди популярных решений — Ollama, LM Studio, KoboldCpp и другие. В качестве примера разберём установку через KoboldCpp.
+There are several ways to run a language model on a local device. Popular options include Ollama, LM Studio, KoboldCpp, and others. As an example, we’ll go through the setup using KoboldCpp.
 
-## Шаги подключения
+## Connection Steps
 
-1. Загрузите LLM в формате `.gguf`. Найти подходящую модель можно, например, на [Hugging Face](https://huggingface.co/).
-2. Запустите KoboldCpp
-	- Скачайте и откройте приложение.
-	- В лаунчере укажите путь к скачанной модели.
-	- Отметьте опцию Remote Tunnel и нажмите Launch.
+1. Download an LLM in `.gguf` format. You can find suitable models, for example, on [Hugging Face](https://huggingface.co/).
+2. Launch KoboldCpp:
+	- Download and open the application.
+	- In the launcher, specify the path to the downloaded model.
+	- Enable the Remote Tunnel option and click Launch.
 
 	![](../assets/image/llm-model/2.png#only-light){.on-glb data-gallery="only-light"}
 	![](../assets/image/llm-model/2.png#only-dark){.on-glb data-gallery="only-dark"}
 
-3. После запуска появится окно с командной строкой. Найдите строку: `Your remote OpenAI Compatible API...`. В ней будет временная ссылка (например: `https://john-loving-cm-lows.trycloudflare.com/v1`). Скопируйте её.
+3. After launching, a command-line window will appear. Look for the line: `Your remote OpenAI Compatible API...`. It will contain a temporary URL (for example: `https://john-loving-cm-lows.trycloudflare.com/v1`). Copy this URL.
 
 	![](../assets/image/llm-model/3.png#only-light){.on-glb data-gallery="only-light"}
 	![](../assets/image/llm-model/3.png#only-dark){.on-glb data-gallery="only-dark"}
 
-4. Добавьте хост на сайте
-	- Перейдите в каталог моделей, вкладка «Hosts», нажмите «Add Host».
-	- В поле «Endpoint URL» вставьте скопированную ссылку и добавьте в конец `/chat/completions` (пример: `https://john-loving-cmlows.trycloudflare.com/v1/chat/completions`)
-	- Остальные настройки заполните по желанию.
+4. Add the host on the website:
+
+	- Go to the Models catalog, open the Hosts tab, and click “Add Host”.
+	- In the “Endpoint URL” field, paste the copied URL and append `/chat/completions` at the end (e.g., `https://john-loving-cmlows.trycloudflare.com/v1/chat/completions`).
+	- Fill in the remaining settings as desired.
 
 	![](../assets/image/llm-model/4.png#only-light){.on-glb data-gallery="only-light"}
 	![](../assets/image/llm-model/4_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
-5. Создайте модель
-	- На вкладке «Models» нажмите «Add Model».
-	- Укажите:
-		- Host — ранее созданный хост;
-		- Display Name — название модели для отображения;
-		- Model Name — точное имя `.gguf`-файла;
-		- Остальные параметры заполните на свое усмотрение.
+5. Create the model:
+	- On the Models tab, click “Add Model”.
+	- Specify:
+		- Host — the host you created earlier;
+		- Display Name — the name of the model for display;
+		- Model Name — the exact name of the .gguf file;
+		- Fill in the remaining parameters as desired.
 
 	![](../assets/image/llm-model/5.png#only-light){.on-glb data-gallery="only-light"}
 	![](../assets/image/llm-model/5_dark.png#only-dark){.on-glb data-gallery="only-dark"}
 
-6. Нажмите «Create Model» и немного подождите. После этого модель появится в списке и будет готова к использованию.
+6. Click “Create Model” and wait a moment. After that, the model will appear in the list and be ready for use.

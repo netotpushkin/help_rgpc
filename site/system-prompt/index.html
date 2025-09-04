@@ -512,7 +512,7 @@
   
   
   <span class="md-ellipsis">
-    Character Creation And Import
+    Character Creation and Import
     
   </span>
   
@@ -610,13 +610,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#creating-a-system-prompt" class="md-nav__link">
     <span class="md-ellipsis">
-      Создание системного промпта
+      Creating a System Prompt
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Создание системного промпта">
+    <nav class="md-nav" aria-label="Creating a System Prompt">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -709,7 +709,7 @@
   
   
   <span class="md-ellipsis">
-    Connecting A Local Model
+    Connecting a Local Model
     
   </span>
   
@@ -732,7 +732,7 @@
   
   
   <span class="md-ellipsis">
-    Connecting The Model Via OpenRouter
+    Connecting the Model via OpenRouter
     
   </span>
   
@@ -800,13 +800,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#creating-a-system-prompt" class="md-nav__link">
     <span class="md-ellipsis">
-      Создание системного промпта
+      Creating a System Prompt
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Создание системного промпта">
+    <nav class="md-nav" aria-label="Creating a System Prompt">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -858,56 +858,56 @@
 
 
 <h1 id="system-prompt">System Prompt</h1>
-<p>Это скрытая инструкция для модели, которая задаёт общие правила поведения в диалоге. Он не заменяет роль персонажа, а определяет общий стиль, ограничения и реакции.</p>
-<p>Можно представить это так: системный промпт — режиссёр, а промпт персонажа — актёр.</p>
-<h2 id="_1">Создание системного промпта</h2>
-<p>Перейдите в каталог промптов, нажав «Prompts» в верхней части страницы. После нажмите на кнопку «Create New Prompt» и заполните следующие поля:</p>
+<p>This is a hidden instruction for the model that sets general rules of behavior in the dialogue. It does not replace the character's role but defines the overall style, constraints, and responses.</p>
+<p>You can think of it this way: the system prompt is the director, while the character prompt is the actor.</p>
+<h2 id="creating-a-system-prompt">Creating a System Prompt</h2>
+<p>Go to the prompts catalog by clicking “Prompts” at the top of the page. Then click the “Create New Prompt” button and fill in the following fields:</p>
 <p><a class="glightbox" href="../assets/image/system-prompt/1.png#only-light" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-light"><img alt="" class="on-glb" data-gallery="only-light" src="../assets/image/system-prompt/1.png#only-light" /></a>
 <a class="glightbox" href="../assets/image/system-prompt/1_dark.png#only-dark" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-dark"><img alt="" class="on-glb" data-gallery="only-dark" src="../assets/image/system-prompt/1_dark.png#only-dark" /></a></p>
 <h3 id="content">Content</h3>
 <ul>
-<li>Title — название промпта;</li>
-<li>Description — коротко опишите назначение;</li>
-<li>Prompt Text — сам текст промпта: пишите чётко, без противоречий.</li>
+<li>Title — the name of the prompt;</li>
+<li>Description — briefly describe its purpose;</li>
+<li>Prompt Text — the actual text of the prompt: write clearly and without contradictions.</li>
 </ul>
 <p><a class="glightbox" href="../assets/image/system-prompt/2.png#only-light" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-light"><img alt="" class="on-glb" data-gallery="only-light" src="../assets/image/system-prompt/2.png#only-light" /></a>
 <a class="glightbox" href="../assets/image/system-prompt/2_dark.png#only-dark" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-dark"><img alt="" class="on-glb" data-gallery="only-dark" src="../assets/image/system-prompt/2_dark.png#only-dark" /></a></p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>Для общих промптов используйте универсальные правила. Для узких — конкретные, например, стиль писателя или поведение в боевых сценах.</p>
-<p>Можно использовать шаблонные ссылки:
-- <code>{{user}}</code> — пользователь;
-- <code>{{char}}</code> — персонаж;
-- <code>&lt;traits&gt;</code>, <code>&lt;scenario&gt;</code>, <code>&lt;greeting&gt;</code>, <code>&lt;example dialogue&gt;</code> — разделы персонажа;
-- <code>&lt;memories&gt;</code> — память чата.</p>
+<p>For general prompts, use universal rules. For specific ones, provide detailed instructions, for example, a writer's style or behavior in combat scenes.</p>
+<p>You can use template placeholders:
+- <code>{{user}}</code> — the user;
+- <code>{{char}}</code> — the character;
+- <code>&lt;traits&gt;</code>, <code>&lt;scenario&gt;</code>, <code>&lt;greeting&gt;</code>, <code>&lt;example dialogue&gt;</code> — character sections;
+- <code>&lt;memories&gt;</code> — chat memory.</p>
 </div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Не делайте промпт слишком длинным — он отправляется при каждом запросе и быстро расходует контекст.</p>
+<p>Do not make the prompt too long — it is sent with every request and quickly consumes the context.</p>
 </div>
 <h3 id="metadata">Metadata</h3>
 <ul>
-<li>Visibility — доступ:<ul>
-<li>Public — для всех;</li>
-<li>Private — только для вас.</li>
+<li>Visibility — access level:<ul>
+<li>Public — visible to everyone;</li>
+<li>Private — only visible to you.</li>
 </ul>
 </li>
-<li>Tags — добавьте ключевые теги для поиска.</li>
+<li>Tags — add relevant keywords for search.</li>
 </ul>
 <p><a class="glightbox" href="../assets/image/system-prompt/3.png#only-light" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-light"><img alt="" class="on-glb" data-gallery="only-light" src="../assets/image/system-prompt/3.png#only-light" /></a>
 <a class="glightbox" href="../assets/image/system-prompt/3_dark.png#only-dark" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-dark"><img alt="" class="on-glb" data-gallery="only-dark" src="../assets/image/system-prompt/3_dark.png#only-dark" /></a></p>
 <h3 id="model">Model</h3>
 <ul>
-<li>Нажмите «Add Model Configuration», чтобы добавить рекомендуемую модель. Можно указать до 10 моделей.</li>
-<li>Для настройки модели нажмите «Configure».</li>
+<li>Click “Add Model Configuration” to add a recommended model. You can specify up to 10 models.</li>
+<li>To configure a model, click “Configure”.</li>
 </ul>
 <p><a class="glightbox" href="../assets/image/system-prompt/4.png#only-light" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-light"><img alt="" class="on-glb" data-gallery="only-light" src="../assets/image/system-prompt/4.png#only-light" /></a>
 <a class="glightbox" href="../assets/image/system-prompt/4_dark.png#only-dark" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom" data-gallery="only-dark"><img alt="" class="on-glb" data-gallery="only-dark" src="../assets/image/system-prompt/4_dark.png#only-dark" /></a></p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Обязательно добавьте минимум одну модель.</p>
+<p>Make sure to add at least one model.</p>
 </div>
-<p>Чтобы сохранить ваш промпт нажмите «Create Prompt».</p>
+<p>To save your prompt, click “Create Prompt”.</p>
 
 
 
@@ -960,13 +960,13 @@
         
         
           
-          <a href="../llm-model/connecting-a-local-model/" class="md-footer__link md-footer__link--next" aria-label="Next: Connecting A Local Model">
+          <a href="../llm-model/connecting-a-local-model/" class="md-footer__link md-footer__link--next" aria-label="Next: Connecting a Local Model">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Connecting A Local Model
+                Connecting a Local Model
               </div>
             </div>
             <div class="md-footer__button md-icon">
